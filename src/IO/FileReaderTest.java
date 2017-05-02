@@ -15,7 +15,8 @@ public class FileReaderTest {
 			}
 			System.out.println("");
 			System.out.println("read count :"+count);
-			FileInputStream fis = new FileInputStream("./FileNew.txt");
+			
+			FileInputStream fis = new FileInputStream("./FileNew.txt"); 
 			data=-1;
 			count=0;
 			while((data= fis.read())!=-1){
